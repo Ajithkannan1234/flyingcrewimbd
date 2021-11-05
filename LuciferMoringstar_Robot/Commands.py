@@ -125,7 +125,7 @@ async def start(bot, message):
                             ),
                         InlineKeyboardButton
                             (
-                                "Discussion group😈⚡️", url="https://t.me/moviecafe34"
+                                "Discussion group😈⚡️", url="https://t.me/joinchat/DI3Z_zHL2TZjYzZl"
                             )
                     ],
                     [
