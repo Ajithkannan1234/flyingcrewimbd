@@ -125,13 +125,13 @@ async def start(bot, message):
                             ),
                         InlineKeyboardButton
                             (
-                                "main group😈⚡️", url="https://t.me/moviecafe34"
+                                "Discussion group😈⚡️", url="https://t.me/moviecafe34"
                             )
                     ],
                     [
                         InlineKeyboardButton
                             (
-                                "our main channel🔥⚡️", url="https://t.me/FLYING_CREW"
+                                "Series channel🔥⚡️", url="https://t.me/joinchat/QjgWbGUc1j1kZjE1"
                             ),
                         InlineKeyboardButton
                             (
