@@ -53,7 +53,7 @@ async def filter(client, message):
     if 2 < len(message.text) < 100:    
         btn = []
         search = message.text
-        mo_tech_yt = f"**🗂️ Title:** {search}\n**⭐ Rating:** {random.choice(RATING)}\n**🎭 Genre:** {random.choice(GENRES)}\n**📤 Uploaded by @Filmhunters123**"
+        mo_tech_yt = f"**🗂️ Title:** {search}\n**⭐ Rating:** {random.choice(RATING)}\n**🎭 Genre:** {random.choice(GENRES)}\n**📤 Uploaded by @moviecafe34**"
         files = await get_filter_results(query=search)
         if files:
             for file in files:
@@ -134,7 +134,7 @@ async def group(client, message):
             chat_id = message.chat.id,
             text=f"""
 👋Hey {message.from_user.mention}
-\n <b><u>Please Go to Google and Copy the Correct Spelling🙏</b></u> \n \n<b>ഗൂഗിളിൽ പൊയി സ്പെല്ലിങ്ങും❗️RELEASE❗️ഡേറ്റും CHECK ചെയുക🥴🥴</b> \n \n 𝗘𝗴 : 𝗗𝗲𝗮𝘁𝗵 𝗥𝗮𝗰𝗲 ✅ \n 𝗗𝗲𝗮𝘁𝗵 𝗥𝗮𝗰𝗲 <b>2019</b>✅ \n 𝗗𝗲𝗮𝘁𝗵𝗿𝗮𝗰𝗲❌ \n 𝗗𝗲𝗮𝘁𝗵 𝗿𝗮𝗰𝗲 𝗺𝗼𝘃𝗶𝗲❌ \n 𝗗𝗲𝗮𝘁𝗵 𝗿𝗮𝗰𝗲  𝘂𝗻𝗱𝗼 ❌ \n 𝗗𝗲𝗮𝘁𝗵 𝗿𝗮𝗰𝗲 𝗹𝗶𝗻𝗸 ❌""",
+\n <b><u>Please Go to Google and Copy the Correct Spelling🙏</b></u> \n \n<b>ഗൂഗിളിൽ പൊയി സ്പെല്ലിങ് CHECK ചെയുക🙏🙏</b>"",
             parse_mode="html",
             reply_to_message_id=message.message_id
         )
@@ -349,7 +349,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{title}"
                 buttons = [
                     [
-                        InlineKeyboardButton("our main channel🔥⚡️", url="https://t.me/joinchat/DNwgNWkKbOxlYTI1")
+                        InlineKeyboardButton("our main channel🔥⚡️", url="https://t.me/moviecafe34")
                     ]
                     ]
                 
