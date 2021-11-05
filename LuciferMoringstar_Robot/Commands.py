@@ -121,21 +121,21 @@ async def start(bot, message):
                     [
                         InlineKeyboardButton
                             (
-                                "our ott group☠️😻", url="https://t.me/filmhunters1234"
+                                "main channel❤️", url="https://t.me/FLYING_CREW"
                             ),
                         InlineKeyboardButton
                             (
-                                "our series channel😈⚡️", url="https://t.me/joinchat/9w9cP_Yxylc4MTk1"
+                                "main group😈⚡️", url="https://t.me/moviecafe34"
                             )
                     ],
                     [
                         InlineKeyboardButton
                             (
-                                "our main channel🔥⚡️", url="https://t.me/joinchat/DNwgNWkKbOxlYTI1"
+                                "our main channel🔥⚡️", url="https://t.me/FLYING_CREW"
                             ),
                         InlineKeyboardButton
                             (
-                                "Our main group😌❤️", url="https://t.me/Filmhunters123"
+                                "Our main group😌❤️", url="https://t.me/moviecafe34"
                             )
                     ]
                 ]
@@ -348,7 +348,7 @@ async def bot_info(bot, message):
         [
             InlineKeyboardButton
                 (
-                     "our main channel🔥⚡️", url="https://t.me/joinchat/DNwgNWkKbOxlYTI1"
+                     "our main channel🔥⚡️", url="https://t.me/FLYING_CREW"
                 )
         ]
     ]
